@@ -7,10 +7,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            if showSplash {
-                SplashScreen()
-                    .transition(.opacity)
-            } else if showOnboarding {
+            if showOnboarding {
                 OnboardingView(showOnboarding: $showOnboarding)
                     .transition(.opacity)
             } else {
