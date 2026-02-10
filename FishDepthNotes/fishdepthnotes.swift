@@ -14,7 +14,7 @@ struct FishDepthNotesApp: App {
 }
 
 struct Settings {
-    static let appID = "6758240851"
-    static let devKey = "oi7aE3fukWTyBKy6kHtXTF"
+    static let appID = "6758788568"
+    static let devKey = "j7QJUKCX7MZPey9Mb9pyxL"
     static let e = "https://deptthnotes.com/config.php"
 }
