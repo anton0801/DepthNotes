@@ -97,6 +97,7 @@ func appReducer(state: AppState, action: AppAction) -> AppState {
             lastRequest: Date()
         )
         newState.ui.showNotificationPrompt = false
+        newState.ui.navigateWeb = true
         
     case .navigateToMain:
         newState.ui.navigateMain = true
