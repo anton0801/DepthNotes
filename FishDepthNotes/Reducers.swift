@@ -83,6 +83,7 @@ func appReducer(state: AppState, action: AppAction) -> AppState {
         newState.ui.showNotificationPrompt = false
         newState.ui.navigateWeb = true
         
+        
     case .notificationPermissionDenied:
         newState.config.notifications = AppState.Config.NotificationInfo(
             status: .rejected,
