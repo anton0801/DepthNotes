@@ -25,7 +25,6 @@ final class AttributionBridge: NSObject {
     }
     
     func receiveNavigation(_ data: [AnyHashable: Any]) {
-        guard !isCompleted() else { return }
         navigationBuffer = data
         onNavigation?(data)
         mergeTimer?.invalidate()
@@ -46,7 +45,4 @@ final class AttributionBridge: NSObject {
         onTracking?(result)
     }
     
-    private func isCompleted() -> Bool {
-        UserDefaults.standard.bool(forKey: completedKey)
-    }
 }

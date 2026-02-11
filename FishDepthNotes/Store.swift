@@ -103,7 +103,7 @@ final class Store: ObservableObject {
         let loaded = persistence.load()
         
         let config = AppAction.Config(
-            endpoint: loaded.endpoint,
+            endpoint: nil,
             mode: loaded.mode,
             firstLaunch: loaded.isFirstLaunch,
             tracking: loaded.tracking,

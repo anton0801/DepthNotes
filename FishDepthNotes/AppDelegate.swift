@@ -54,9 +54,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate, 
     }
     
     private func broadcastTracking(_ data: [AnyHashable: Any]) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-            NotificationCenter.default.post(name: Notification.Name("ConversionDataReceived"), object: nil, userInfo: ["conversionData": data])
-        }
+        NotificationCenter.default.post(name: Notification.Name("ConversionDataReceived"), object: nil, userInfo: ["conversionData": data])
     }
     
     private func broadcastNavigation(_ data: [AnyHashable: Any]) {
