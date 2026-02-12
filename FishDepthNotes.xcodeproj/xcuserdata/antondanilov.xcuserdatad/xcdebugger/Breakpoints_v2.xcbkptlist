@@ -34,6 +34,36 @@
             endingLineNumber = "154"
             landmarkName = "didResolveDeepLink(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4719B44B-D0A8-419B-BE64-4E9F389AFB5C - d202ce82aa2994ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FishDepthNotes.TrackingBridge.didResolveDeepLink(__C.AppsFlyerDeepLinkResult) -&gt; ()"
+                  moduleName = "FishDepthNotes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antondanilov/Desktop/apps_cpastore/FishDepthNotes/FishDepthNotes/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156">
+               </Location>
+               <Location
+                  uuid = "4719B44B-D0A8-419B-BE64-4E9F389AFB5C - d202ce82aa29942c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FishDepthNotes.TrackingBridge.didResolveDeepLink(__C.AppsFlyerDeepLinkResult) -&gt; ()"
+                  moduleName = "FishDepthNotes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antondanilov/Desktop/apps_cpastore/FishDepthNotes/FishDepthNotes/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -130,36 +160,6 @@
             endingLineNumber = "157"
             landmarkName = "performValidation()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D6F98F9D-F782-4670-AE2B-4D0112D62DE6 - 97eb8c166b1042ab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for FishDepthNotes.Store.performValidation() async -&gt; ()"
-                  moduleName = "FishDepthNotes.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/antondanilov/Desktop/apps_cpastore/FishDepthNotes/FishDepthNotes/Store.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "157"
-                  endingLineNumber = "157">
-               </Location>
-               <Location
-                  uuid = "D6F98F9D-F782-4670-AE2B-4D0112D62DE6 - c86940a1637f28b4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for FishDepthNotes.Store.performValidation() async -&gt; ()"
-                  moduleName = "FishDepthNotes.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/antondanilov/Desktop/apps_cpastore/FishDepthNotes/FishDepthNotes/Store.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "157"
-                  endingLineNumber = "157">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -176,36 +176,6 @@
             endingLineNumber = "146"
             landmarkName = "performValidation()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "EE22B381-A0DA-4596-9B08-90AFCA713F91 - dee1357f9a6f3fe7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for FishDepthNotes.Store.performValidation() async -&gt; ()"
-                  moduleName = "FishDepthNotes.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/antondanilov/Desktop/apps_cpastore/FishDepthNotes/FishDepthNotes/Store.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147">
-               </Location>
-               <Location
-                  uuid = "EE22B381-A0DA-4596-9B08-90AFCA713F91 - dee1357f9a6f3fc6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for FishDepthNotes.Store.performValidation() async -&gt; ()"
-                  moduleName = "FishDepthNotes.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/antondanilov/Desktop/apps_cpastore/FishDepthNotes/FishDepthNotes/Store.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "146"
-                  endingLineNumber = "146">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -221,6 +191,54 @@
             startingLineNumber = "52"
             endingLineNumber = "52"
             landmarkName = "handleSideEffects(action:oldState:newState:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F1AC5B0-0665-416A-8F61-1A9A7BE099FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FishDepthNotes/Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "executeBusinessLogic()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "003B046E-D6CD-4E8F-8D9A-8E46268E4C4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FishDepthNotes/Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "completeWithURL(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD529013-5C35-402E-8749-2C3A37CE7ED5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FishDepthNotes/Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "completeWithURL(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

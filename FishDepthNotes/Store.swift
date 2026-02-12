@@ -231,6 +231,7 @@ final class Store: ObservableObject {
         
         timeoutTask?.cancel()
         isLocked = true
+        dispatch(.fetchEndpointSuccess(url))
     }
     
     private func requestNotificationPermission() {
